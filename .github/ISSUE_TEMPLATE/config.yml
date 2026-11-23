@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Perguntas, ideias e propostas grandes
+    url: https://github.com/marlonamancio/descobrir-e-entregar/discussions
+    about: Use Discussions para debater antes de abrir uma issue (por exemplo, um capítulo novo ou uma mudança de estrutura).
+  - name: Como contribuir
+    url: https://github.com/marlonamancio/descobrir-e-entregar/blob/main/CONTRIBUTING.md
+    about: Regras, passo a passo e prompt para preparar uma IA.

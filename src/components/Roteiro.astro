@@ -1,0 +1,63 @@
+---
+/** Sumário completo com status, gerado de src/data/sumario.ts. Usado na página Roteiro. */
+import { apendices, capitulos, partes, publicado } from '../data/sumario';
+import StatusBadge from './StatusBadge.astro';
+---
+
+{
+	partes.map((parte) => (
+		<section>
+			<h2>
+				Parte {parte.numero}. {parte.titulo}
+			</h2>
+			<table>
+				<thead>
+					<tr>
+						<th scope="col">Cap.</th>
+						<th scope="col">Título</th>
+						<th scope="col">Status</th>
+					</tr>
+				</thead>
+				<tbody>
+					{capitulos
+						.filter((c) => c.parte === parte.numero)
+						.map((c) => (
+							<tr>
+								<td>{c.numero}</td>
+								<td>{publicado(c) ? <a href={`/${c.slug}/`}>{c.titulo}</a> : c.titulo}</td>
+								<td>
+									<StatusBadge status={c.status} />
+								</td>
+							</tr>
+						))}
+				</tbody>
+			</table>
+		</section>
+	))
+}
+
+<section>
+	<h2>Apêndices</h2>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Ap.</th>
+				<th scope="col">Título</th>
+				<th scope="col">Status</th>
+			</tr>
+		</thead>
+		<tbody>
+			{
+				apendices.map((a) => (
+					<tr>
+						<td>{a.letra}</td>
+						<td>{publicado(a) ? <a href={`/${a.slug}/`}>{a.titulo}</a> : a.titulo}</td>
+						<td>
+							<StatusBadge status={a.status} />
+						</td>
+					</tr>
+				))
+			}
+		</tbody>
+	</table>
+</section>

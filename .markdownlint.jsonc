@@ -1,0 +1,33 @@
+// Regras do markdownlint para o livro e os documentos do repositório.
+// Padrão: todas as regras ativas, com os ajustes abaixo.
+{
+  "default": true,
+
+  // Títulos no estilo "##", nunca sublinhados.
+  "MD003": { "style": "atx" },
+
+  // Listas com hífen.
+  "MD004": { "style": "dash" },
+
+  // Parágrafos longos são normais em texto corrido: sem limite de linha.
+  "MD013": false,
+
+  // Títulos repetidos só são problema entre irmãos (ex.: "Para ler mais" em cada capítulo).
+  "MD024": { "siblings_only": true },
+
+  // O título da página vem do frontmatter; o corpo não deve ter H1 (padrão da regra).
+  "MD025": true,
+
+  // Comentários de TODO e componentes MDX são permitidos.
+  "MD033": false,
+
+  // A página começa pelo frontmatter, não por um título.
+  "MD041": false,
+
+  // Tabelas no estilo compacto do projeto (|---|---|) são aceitas.
+  "MD060": false,
+
+  // Ênfase e negrito com asterisco.
+  "MD049": { "style": "asterisk" },
+  "MD050": { "style": "asterisk" }
+}

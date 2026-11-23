@@ -1,0 +1,32 @@
+{
+  "name": "descobrir-e-entregar",
+  "description": "Site do livro aberto Descoberta e Entrega Contínuas: um guia para equipes de produtos.",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "author": "Marlon Lacerda Amâncio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonamancio/descobrir-e-entregar.git"
+  },
+  "homepage": "https://descobrir-e-entregar.com.br",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint:md": "markdownlint-cli2 \"src/content/docs/**/*.{md,mdx}\" README.md CONTRIBUTING.md CODE_OF_CONDUCT.md \".github/ISSUE_TEMPLATE/*.md\""
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.43.1",
+    "astro": "^7.4.13",
+    "starlight-links-validator": "^0.27.0"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.24.2"
+  }
+}

@@ -1,0 +1,37 @@
+---
+/**
+ * Título da página com selo de status e tempo de leitura.
+ * O selo aparece em toda página com `status` no frontmatter.
+ * O tempo de leitura aparece só na Introdução e nos capítulos.
+ */
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+import { minutosDeLeitura } from '../utils/tempo-de-leitura';
+import StatusBadge from './StatusBadge.astro';
+
+const { entry } = Astro.locals.starlightRoute;
+const { status, capitulo } = entry.data;
+const mostrarLeitura = capitulo !== undefined || entry.id === 'introducao';
+const minutos = mostrarLeitura && entry.body ? minutosDeLeitura(entry.body) : undefined;
+---
+
+<Default />
+{
+	(status || minutos) && (
+		<p class="meta-titulo">
+			{status && <StatusBadge status={status} />}
+			{minutos && <span>Leitura: cerca de {minutos} {minutos === 1 ? 'minuto' : 'minutos'}</span>}
+		</p>
+	)
+}
+
+<style>
+	.meta-titulo {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem 1rem;
+		margin-top: 0.5rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+	}
+</style>
