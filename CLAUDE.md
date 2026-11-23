@@ -128,7 +128,7 @@ sidebar:
 
 - `capitulo`, `parte`, `status` e `colaboradores` são campos próprios: estender o schema com `docsSchema({ extend: ... })` em `src/content.config.ts`.
 - O `status` aparece como selo na página e no Roteiro.
-- Tempo de leitura: calculado por plugin remark. Data de atualização: `lastUpdated` do Git.
+- O tempo de leitura é calculado no componente PageTitle, contando as palavras do texto-fonte (sem código nem HTML), a cerca de 200 palavras por minuto, arredondado para cima. Não usa plugin remark. Data de atualização: `lastUpdated` do Git.
 
 ## Stack
 
