@@ -1,0 +1,35 @@
+---
+/**
+ * Título da página com selo de status e tempo de leitura.
+ * O tempo vem do plugin remark-tempo-de-leitura (campo minutosDeLeitura).
+ * Páginas sem `status` no frontmatter mostram só o título.
+ */
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+import StatusBadge from './StatusBadge.astro';
+
+const { entry } = Astro.locals.starlightRoute;
+const { status } = entry.data;
+const minutos = entry.rendered?.metadata?.frontmatter?.minutosDeLeitura as number | undefined;
+---
+
+<Default />
+{
+	status && (
+		<p class="meta-titulo">
+			<StatusBadge status={status} />
+			{minutos && <span>Leitura: cerca de {minutos} {minutos === 1 ? 'minuto' : 'minutos'}</span>}
+		</p>
+	)
+}
+
+<style>
+	.meta-titulo {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem 1rem;
+		margin-top: 0.5rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+	}
+</style>

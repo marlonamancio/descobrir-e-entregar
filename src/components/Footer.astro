@@ -1,0 +1,30 @@
+---
+/** Rodapé padrão do Starlight, acrescido de licenças, repositório e aviso. */
+import Default from '@astrojs/starlight/components/Footer.astro';
+
+const REPOSITORIO = 'https://github.com/marlonamancio/descobrir-e-entregar';
+---
+
+<Default />
+<div class="rodape-livro" data-pagefind-ignore>
+	<p>
+		Texto sob a licença <a href={`${REPOSITORIO}/blob/main/LICENSE.txt`}>CC BY-SA 4.0</a>.
+		Código do site sob a licença <a href={`${REPOSITORIO}/blob/main/LICENSE-CODE.txt`}>MIT</a>.
+		<a href={REPOSITORIO}>Repositório no GitHub</a>.
+	</p>
+	<p>Este livro é um projeto independente e não representa a posição de nenhuma instituição.</p>
+</div>
+
+<style>
+	.rodape-livro {
+		margin-top: 2rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--sl-color-hairline);
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-gray-3);
+		text-align: center;
+	}
+	.rodape-livro p + p {
+		margin-top: 0.5rem;
+	}
+</style>

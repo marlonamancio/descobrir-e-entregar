@@ -1,0 +1,35 @@
+/* Cor de destaque: azul-petróleo (provisória). */
+
+/* Tema escuro (padrão do Starlight). */
+:root {
+	--sl-color-accent-low: #0b2e33;
+	--sl-color-accent: #1f8a8f;
+	--sl-color-accent-high: #a6e1e0;
+}
+
+/* Tema claro. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #c4ecea;
+	--sl-color-accent: #0e6b70;
+	--sl-color-accent-high: #083b3f;
+}
+
+/*
+ * Faixa de alpha: texto accent-high sobre fundo accent-low nos dois temas
+ * (contraste acima de 9,6:1). O padrão do Starlight usa o accent no tema
+ * claro, com contraste baixo para texto.
+ */
+:root {
+	--sl-color-banner-bg: var(--sl-color-accent-low);
+	--sl-color-banner-text: var(--sl-color-accent-high);
+}
+
+/* Legibilidade: corpo do texto em 18px e cerca de 70 caracteres por linha. */
+:root {
+	--sl-content-width: 40rem;
+}
+
+.sl-markdown-content {
+	font-size: 1.125rem;
+	line-height: 1.7;
+}

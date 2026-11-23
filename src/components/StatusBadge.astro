@@ -1,0 +1,20 @@
+---
+/** Selo de status de um capítulo, usado no título da página e no Roteiro. */
+import { Badge } from '@astrojs/starlight/components';
+import type { Status } from '../data/sumario';
+
+interface Props {
+	status: Status;
+}
+
+const variantes = {
+	planejado: 'default',
+	rascunho: 'caution',
+	pesquisado: 'note',
+	revisado: 'success',
+} as const;
+
+const { status } = Astro.props;
+---
+
+<Badge text={status} variant={variantes[status]} />
