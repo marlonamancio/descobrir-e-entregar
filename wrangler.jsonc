@@ -6,5 +6,6 @@
     "directory": "./dist",
     // Endereço inexistente mostra a 404 gerada pelo build (dist/404.html).
     "not_found_handling": "404-page"
-  }
+  },
+  "previews": {}
 }
