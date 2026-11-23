@@ -1,5 +1,6 @@
 ---
 title: Por que descobrir e entregar ao mesmo tempo
+description: "Do jogo de rúgbi de Takeuchi e Nonaka ao ágil, por que construir bem não basta e o que levou a descobrir e entregar ao mesmo tempo."
 slug: por-que-descobrir-e-entregar
 capitulo: 1
 parte: 1
