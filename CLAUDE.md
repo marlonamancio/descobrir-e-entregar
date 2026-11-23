@@ -255,6 +255,21 @@ Documento de origem: "Livro — Descoberta e Entrega Contínuas" (abas Introduç
 - Rodar `npm run build` antes de dar uma tarefa por concluída.
 - Comandos: `npm run dev`, `npm run build`, `npm run preview`.
 
+## Fluxo de trabalho com Git (fluxo enxuto)
+
+Toda mudança no repositório segue este fluxo. Não é necessário abrir issue antes, usar rascunho de PR nem pedir review.
+
+1. Partir da `main` atualizada e criar uma branch por assunto, com nome curto (`git switch -c nome-da-branch origin/main`).
+2. Nunca fazer commit direto na `main`.
+3. Antes de commitar, rodar `npm run lint:md` e `npm run build`. Só prosseguir se os dois passarem.
+4. Fazer um commit com mensagem curta e clara, em português, e dar push só da branch da mudança.
+5. Abrir um PR normal (não rascunho) contra a `main`, preenchendo o modelo do projeto: "Usou IA?" e "Fonte usada". Deixar "Fecha #" vazio quando não houver issue.
+6. Aguardar a Action "Lint do Markdown e build do site" ficar verde. Se falhar, corrigir na mesma branch com novo commit.
+7. O merge é feito pelo Marlon no GitHub, com **Squash and merge**. O Claude Code não faz merge.
+8. Depois do merge, apagar a branch local e atualizar a `main`.
+
+O Claude Code abre o PR e informa o link; não considera o trabalho concluído até a Action passar.
+
 ## Colaboradores (depois do alpha)
 
 - Página "Colaboradores" com All Contributors (`.all-contributorsrc`), e componente "Colaboraram nesta página" no rodapé dos capítulos, gerado no build a partir do histórico do Git do arquivo. Rótulo: "contribuições", nunca "autoria".
