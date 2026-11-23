@@ -68,7 +68,7 @@ Apêndices: A `glossario`, B `guia-por-papel`, C `exercicios-e-modelos`, D `refe
 
 Status (mesmo vocabulário da Introdução e do README): **planejado** = sem texto; **rascunho** = há texto, mas as fontes ainda precisam ser conferidas; **pesquisado** = fontes abertas e conferidas; **revisado** = texto e fontes revisados.
 
-Outras páginas: `/` (capa curta, com link para a Introdução), `introducao` (já escrita, em rascunho; fica como porta de entrada do livro), `como-contribuir` (página curta: resumo das regras em poucas linhas e link para o `CONTRIBUTING.md` no GitHub, que é a única fonte do passo a passo e do prompt para IA; não duplicar o texto), `roteiro` (sumário completo com status), `pesquisa/<slug-do-capitulo>` (notas de pesquisa).
+Outras páginas: `/` (capa curta, com link para a Introdução), `introducao` (já escrita; fica como porta de entrada do livro), `como-contribuir` (página curta: resumo das regras em poucas linhas e link para o `CONTRIBUTING.md` no GitHub, que é a única fonte do passo a passo e do prompt para IA; não duplicar o texto), `roteiro` (sumário completo com status), `pesquisa/<slug-do-capitulo>` (notas de pesquisa).
 
 Não criar, renomear nem renumerar capítulos sem pedido explícito. **URLs não mudam** quando um capítulo é renumerado: o slug é fixo.
 

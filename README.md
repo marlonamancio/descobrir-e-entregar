@@ -22,7 +22,7 @@ Versão **alpha**. O livro é publicado antes de terminado e atualizado conforme
 | pesquisado | as fontes foram abertas e conferidas |
 | revisado | texto e fontes foram revisados |
 
-A Introdução e os capítulos 1 a 3 estão em rascunho. Os capítulos 4 a 17 e os apêndices estão planejados.
+Os capítulos 1 a 3 estão em rascunho, e a Introdução não tem mais selo de status. Os capítulos 4 a 17 e os apêndices estão planejados.
 
 ## Sobre o projeto
 
