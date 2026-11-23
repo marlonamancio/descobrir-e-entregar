@@ -162,13 +162,13 @@ sidebar:
 
 **Sumário como fonte única.** `src/data/sumario.ts` lista partes e os 17 capítulos (número, título, slug, parte, status). Dele saem o menu lateral e a página Roteiro. Capítulo `planejado` não tem arquivo em `src/content/docs/`, só a linha no sumário. Ao mudar o status de um capítulo, atualizar o frontmatter **e** o sumário (o build deve acusar divergência).
 
-**Título da página.** Override de `PageTitle`: título, selo de status (planejado, rascunho, pesquisado, revisado) e tempo de leitura, calculado por um plugin remark que grava os minutos no frontmatter do build.
+**Título da página.** Override de `PageTitle`: título, selo de status (planejado, rascunho, pesquisado, revisado) e tempo de leitura. O tempo de leitura é calculado no componente PageTitle, contando as palavras do texto-fonte (sem código nem HTML), a cerca de 200 palavras por minuto, arredondado para cima. Não usa plugin remark.
 
 **Faixa de alpha.** Faixa em todas as páginas: "Versão alpha: o livro está em construção e aceita contribuições." com link para `/como-contribuir/`. No Starlight, `banner` é campo de frontmatter por página: para valer em todas as páginas, é preciso sobrescrever o componente `Banner` (ou usar um plugin). Verificar no build antes de fechar.
 
 **Rodapé.** Override de `Footer`, mantendo o padrão do Starlight e acrescentando: texto sob CC BY-SA 4.0; código sob MIT; link para o repositório; "Este livro é um projeto independente e não representa a posição de nenhuma instituição."
 
-**Identidade visual.** Tema padrão do Starlight, título como logotipo em texto, favicon simples, claro/escuro seguindo o sistema. Cor de destaque: azul-petróleo (provisória, pode mudar).
+**Identidade visual.** Tema padrão do Starlight, título como logotipo em texto, favicon simples, claro/escuro seguindo o sistema. Cor de destaque: azul-petróleo (provisória, pode mudar). O favicon atual (SVG com duas barras) e o ícone do GitHub no cabeçalho são provisórios: a identidade visual (favicon e imagem Open Graph) será definida pelo autor.
 
 ```css
 /* src/styles/tema.css */
