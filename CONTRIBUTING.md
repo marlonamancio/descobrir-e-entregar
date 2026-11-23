@@ -57,27 +57,35 @@ Requisitos: Git e a versão do Node indicada no arquivo `.nvmrc`. No Windows, o 
 
 1. Clique em **Fork**, no topo do repositório, para criar uma cópia na conta da pessoa.
 2. Clone o fork e entre na pasta:
+
    ```bash
    git clone https://github.com/SEU-USUARIO/descobrir-e-entregar.git
    cd descobrir-e-entregar
    ```
+
 3. Crie uma branch com nome curto, ligado à issue:
+
    ```bash
    git switch -c fix-12-data-do-manifesto
    ```
+
 4. Instale as dependências e abra o site local:
+
    ```bash
    npm ci
    npm run dev
    ```
+
    O site abre em `http://localhost:4321`. Os textos ficam em `src/content/docs/`.
 5. Edite os arquivos. Para conferir o resultado antes de enviar, rode `npm run build`, que também valida os links, e `npx markdownlint-cli2 "src/**/*.md"`.
 6. Registre a mudança e envie:
+
    ```bash
    git add .
    git commit -m "Corrige data do Manifesto Ágil (fecha #12)"
    git push -u origin fix-12-data-do-manifesto
    ```
+
 7. No GitHub, aparece o botão **Compare & pull request**. Clique, preencha o modelo e envie.
 
 (Os comandos acima valem para o projeto montado conforme o `package.json`. Se algum não existir, o `package.json` é a referência.)

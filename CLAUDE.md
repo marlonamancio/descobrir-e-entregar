@@ -74,7 +74,7 @@ Não criar, renomear nem renumerar capítulos sem pedido explícito. **URLs não
 
 ## Estrutura de pastas
 
-```
+```text
 /
 ├── src/content/docs/
 │   ├── index.mdx                       # capa

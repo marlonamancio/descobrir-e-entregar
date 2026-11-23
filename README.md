@@ -1,5 +1,6 @@
 # Descoberta e Entrega Contínuas
 
+<!-- markdownlint-disable-next-line MD036 -->
 **Um guia para equipes de produtos**
 
 Livro aberto, em português, sobre como equipes de produto descobrem e entregam ao mesmo tempo: de onde a ideia vem, o que muda no dia a dia de cada papel e como começar sem romper com o que já funciona. O foco é UX em grandes organizações, com várias equipes e vários papéis, em ambiente ágil, regulado e de alta complexidade. Equipes pequenas e médias também são tratadas.
@@ -47,6 +48,6 @@ PDFs e epubs de fontes **nunca** entram no repositório. Entram só o texto do l
 
 ## Como citar
 
-AMÂNCIO, Marlon Lacerda. **Descoberta e Entrega Contínuas: um guia para equipes de produtos**. Versão alpha. [S. l.]: [s. n.], 2026. Disponível em: https://descobrir-e-entregar.com.br. Acesso em: [data].
+AMÂNCIO, Marlon Lacerda. **Descoberta e Entrega Contínuas: um guia para equipes de produtos**. Versão alpha. [S. l.]: [s. n.], 2026. Disponível em: <https://descobrir-e-entregar.com.br>. Acesso em: [data].
 
 Indique a versão consultada, porque o texto muda conforme a pesquisa avança.

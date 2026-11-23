@@ -14,7 +14,9 @@ Capítulo e seção (ou capítulo planejado):
 **O que ela acrescenta**
 Em poucas linhas, o que a fonte diz e por que importa para o livro:
 
+<!-- markdownlint-disable-next-line MD036 -->
 **Tipo de fonte**
+
 - [ ] Original (artigo, livro, documentação oficial)
 - [ ] Secundária (resumo, comentário)
 - [ ] Material de fornecedor ou de profissional, com evidência limitada

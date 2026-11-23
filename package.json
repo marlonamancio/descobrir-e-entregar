@@ -19,7 +19,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint:md": "markdownlint-cli2 \"src/content/docs/**/*.{md,mdx}\""
+    "lint:md": "markdownlint-cli2 \"src/content/docs/**/*.{md,mdx}\" README.md CONTRIBUTING.md CODE_OF_CONDUCT.md \".github/ISSUE_TEMPLATE/*.md\""
   },
   "dependencies": {
     "@astrojs/starlight": "^0.43.1",
