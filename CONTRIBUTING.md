@@ -162,4 +162,4 @@ O texto do livro é distribuído sob a licença [CC BY-SA 4.0](https://creativec
 
 ## Conduta
 
-Seja respeitosa e objetiva. Discordâncias se resolvem com fontes. Comentários ofensivos ou de assédio são removidos, e quem os faz pode ser bloqueado.
+Seja respeitosa e objetiva. Discordâncias se resolvem com fontes. Comentários ofensivos ou de assédio são removidos, e quem os faz pode ser bloqueado. As regras completas estão no [Código de Conduta](CODE_OF_CONDUCT.md).
