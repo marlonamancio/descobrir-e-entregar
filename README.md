@@ -27,7 +27,7 @@ Os capítulos 1 a 3 estão em rascunho, e a Introdução não tem mais selo de s
 ## Sobre o projeto
 
 - **Projeto pessoal de estudo.** O livro é uma pesquisa bibliográfica, escrita para estudar o tema. Não representa a posição de nenhuma organização e não usa informação interna de nenhum empregador.
-- **Escrito com auxílio de IA.** O texto foi produzido com o auxílio do Claude, da Anthropic, a partir de fontes que o autor reuniu e conferiu. A Introdução explica como.
+- **Escrito com auxílio de IA.** O texto foi produzido com auxílio de inteligência artificial, a partir de fontes que o autor reuniu e conferiu. A Introdução explica como.
 - **Aberto a colaboração.** Qualquer pessoa pode apontar erros, sugerir fontes e propor melhorias.
 
 ## Como contribuir
