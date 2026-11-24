@@ -77,7 +77,7 @@ Requisitos: Git e a versão do Node indicada no arquivo `.nvmrc`. No Windows, o 
    ```
 
    O site abre em `http://localhost:4321`. Os textos ficam em `src/content/docs/`.
-5. Edite os arquivos. Para conferir o resultado antes de enviar, rode `npm run build`, que também valida os links, e `npx markdownlint-cli2 "src/**/*.md"`.
+5. Edite os arquivos. Para conferir o resultado antes de enviar, rode `npm run build`, que também valida os links, e `npm run lint:md`.
 6. Registre a mudança e envie:
 
    ```bash

@@ -32,11 +32,11 @@ Os capítulos 1 a 3 estão em rascunho, e a Introdução não tem mais selo de s
 
 ## Como contribuir
 
-Toda afirmação do livro precisa de fonte. Propostas e debates começam em Discussions. Trabalho concreto vira issue (há modelos para erro factual e para sugestão de fonte), e a issue vem antes do pull request. O autor revisa e aprova tudo o que entra. As regras completas estão em [CONTRIBUTING.md](CONTRIBUTING.md).
+Toda afirmação do livro precisa de fonte. Propostas e debates começam em Discussions. Trabalho concreto vira issue (há modelos para erro factual e para sugestão de fonte), e a issue vem antes do pull request. O autor revisa e aprova tudo o que entra. As regras completas estão em [CONTRIBUTING.md](CONTRIBUTING.md), e a convivência no projeto segue o [Código de Conduta](CODE_OF_CONDUCT.md).
 
 ## Estrutura do repositório
 
-Cada capítulo é um arquivo Markdown, com um bloco de metadados no topo (título, ordem, status e data). O site, feito com [Astro Starlight](https://starlight.astro.build), usa esses metadados para o sumário e para o selo de status.
+Cada capítulo é um arquivo Markdown, com um bloco de metadados no topo (título, descrição, número, parte, status e colaboradores). O site, feito com [Astro Starlight](https://starlight.astro.build), usa esses metadados para o título da página e o selo de status. O sumário fica em `src/data/sumario.ts`: dele saem o menu lateral e a página Roteiro, e o build confere se cada capítulo tem o mesmo status no sumário e no arquivo. A data de atualização vem do histórico do Git.
 
 PDFs e epubs de fontes **nunca** entram no repositório. Entram só o texto do livro, com paráfrase e citação curta, e as referências.
 

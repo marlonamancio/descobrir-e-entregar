@@ -27,7 +27,7 @@ Este livro é o resultado de uma pesquisa bibliográfica, feita como estudo pess
 
 ## Escrito com auxílio de IA
 
-O livro foi escrito com auxílio de inteligência artificial (Claude, da Anthropic) na pesquisa e na redação. O autor define os temas, escolhe as fontes, aprova o que entra no texto e responde pelo resultado.
+O livro foi escrito com auxílio de inteligência artificial na pesquisa e na redação. O autor define os temas, escolhe as fontes, aprova o que entra no texto e responde pelo resultado.
 
 A IA pode errar, inclusive em datas, atribuições e resumos de fontes. Por isso o livro segue três regras: toda afirmação importante tem fonte, cada capítulo mostra o seu estado de revisão, e qualquer pessoa pode apontar um erro.
 
@@ -45,7 +45,7 @@ As regras completas ficam no arquivo CONTRIBUTING.md do repositório. Em resumo:
 
 ## Licença
 
-O texto do livro usa a licença Creative Commons CC BY-SA. É permitido compartilhar e adaptar o conteúdo, inclusive para uso comercial, desde que se dê o crédito e se mantenha a mesma licença nas adaptações. Toda contribuição ao texto entra sob essa licença. O código do site é distribuído sob a licença MIT, e as contribuições ao código entram sob ela.
+O texto do livro usa a licença [Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br). É permitido compartilhar e adaptar o conteúdo, inclusive para uso comercial, desde que se dê o crédito e se mantenha a mesma licença nas adaptações. Toda contribuição ao texto entra sob essa licença. O código do site é distribuído sob a licença MIT, e as contribuições ao código entram sob ela.
 
 As obras citadas continuam com os direitos de quem as escreveu. O repositório não inclui livros, artigos ou PDFs de terceiros: só o texto do livro, com paráfrases, citações curtas e as referências.
 
