@@ -89,6 +89,6 @@ Para citar um capítulo, acrescente o número e o título dele, e o status que e
 
 ## Sobre o autor
 
-Marlon Lacerda Amâncio é UX Designer Sênior. Atua há cerca de 24 anos com web design, UX e UI, e este livro nasceu como projeto pessoal de estudo sobre como equipes de produto descobrem e entregam ao mesmo tempo.
+Marlon Lacerda Amâncio é UX Designer Sênior. Atua há cerca de 24 anos com TI e 12 anos com web design, UX e UI, e este livro nasceu como projeto pessoal de estudo sobre como equipes de produto descobrem e entregam ao mesmo tempo.
 
 O livro é um trabalho pessoal. As ideias e os erros são do projeto, e não representam a posição de nenhuma organização.
